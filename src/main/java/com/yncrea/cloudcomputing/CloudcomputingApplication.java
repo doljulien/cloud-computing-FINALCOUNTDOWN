@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @SpringBootApplication
 public class CloudcomputingApplication {
-
+   
 	@RequestMapping("/")
 	public String home() {
 		String hostname = System.getenv("HOSTNAME");
