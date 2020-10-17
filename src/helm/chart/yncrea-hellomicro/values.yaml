@@ -5,7 +5,7 @@
 replicaCount: 3
 
 image:
-  repository: your_docker_id/yncrea-hellomicro
+  repository: juliendol/yncrea-hellomicro
   version: latest
 
 service:
